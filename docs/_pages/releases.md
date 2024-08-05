@@ -15,8 +15,8 @@ sidebar:
 * Added `NotContainItemsAssignableTo` for asserting that a collection does not contain any items assignable to a specific type - [#2266](https://github.com/fluentassertions/fluentassertions/pull/2266)
 
 ### Fixes
-* `because` and `becauseArgs` were not included in the error message when collections of enums were not equivalent - [#2214](https://github.com/fluentassertions/fluentassertions/pull/2214)
-* Improve caller identification for tests written in Visual Basic - [#2254](https://github.com/fluentassertions/fluentassertions/pull/2254)
+* Improve ca* `because` and `becauseArgs` were not included in the error message when collections of enums were not equivalent - [#2214](https://github.com/fluentassertions/fluentassertions/pull/2214)
+ller identification for tests written in Visual Basic - [#2254](https://github.com/fluentassertions/fluentassertions/pull/2254)
 * Improved auto conversion to enums for objects of different integral type - [#2261](https://github.com/fluentassertions/fluentassertions/pull/2261)
 * Fixed exceptions when trying to auto convert strings or enums of different type to enums- [#2261](https://github.com/fluentassertions/fluentassertions/pull/2261)
 * Format records and anonymous objects with their member values instead of the generated `ToString` - [#2144](https://github.com/fluentassertions/fluentassertions/pull/2144)
